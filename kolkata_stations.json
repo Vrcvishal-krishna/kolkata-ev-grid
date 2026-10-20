@@ -21,7 +21,7 @@
             "id": 11945,
             "display_id": 1,
             "type": "CCS-2",
-            "status": "AVAILABLE"
+            "status": "CHARGING"
           },
           {
             "id": 11946,
@@ -243,13 +243,13 @@
             "id": 27315,
             "display_id": 1,
             "type": "CCS-2",
-            "status": "FAULTED"
+            "status": "AVAILABLE"
           },
           {
             "id": 27322,
             "display_id": 2,
             "type": "CCS-2",
-            "status": "FAULTED"
+            "status": "AVAILABLE"
           }
         ]
       }
@@ -809,7 +809,7 @@
             "id": 28921,
             "display_id": 1,
             "type": "CCS-2",
-            "status": "FAULTED"
+            "status": "AVAILABLE"
           },
           {
             "id": 28925,
@@ -843,13 +843,13 @@
             "id": 29089,
             "display_id": 1,
             "type": "CCS-2",
-            "status": "FAULTED"
+            "status": "AVAILABLE"
           },
           {
             "id": 29117,
             "display_id": 2,
             "type": "CCS-2",
-            "status": "FAULTED"
+            "status": "AVAILABLE"
           }
         ]
       }
@@ -1035,7 +1035,7 @@
             "id": 33310,
             "display_id": 1,
             "type": "CCS-2",
-            "status": "CHARGING"
+            "status": "AVAILABLE"
           },
           {
             "id": 33311,
@@ -1109,7 +1109,7 @@
             "id": 33323,
             "display_id": 2,
             "type": "CCS-2",
-            "status": "FAULTED"
+            "status": "CHARGING"
           }
         ]
       }
@@ -1383,15 +1383,49 @@
     ]
   },
   {
+    "station_id": 15865,
+    "name": "WB | Kolkata | BMW - OSL Prestige",
+    "brand": "Statiq",
+    "address": "The Silver Arcade 5, JBS Haldane Avenue, EM",
+    "latitude": 22.549343,
+    "longitude": 88.400438,
+    "chargers_count": 1,
+    "total_sockets": 2,
+    "total_capacity_kw": 144.0,
+    "chargers": [
+      {
+        "charger_id": 69707,
+        "charger_name": "TCZ WB | Kolkata | BMW - OSL Prestige 1",
+        "power_kw": 72.0,
+        "type": "DC",
+        "sockets_count": 2,
+        "connectors": [
+          {
+            "id": 35461,
+            "display_id": 1,
+            "type": "Type-2",
+            "status": "FAULTED"
+          },
+          {
+            "id": 35462,
+            "display_id": 2,
+            "type": "CCS-2",
+            "status": "FAULTED"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "station_id": 16253,
     "name": "Srijan Natura",
     "brand": "Statiq",
     "address": "37, Chanditala Main Rd, Ghol Para Basti, New Alipore, Kolkata, West Bengal 700053",
     "latitude": 22.496589,
     "longitude": 88.333792,
-    "chargers_count": 1,
-    "total_sockets": 1,
-    "total_capacity_kw": 22.0,
+    "chargers_count": 2,
+    "total_sockets": 2,
+    "total_capacity_kw": 44.0,
     "chargers": [
       {
         "charger_id": 70531,
@@ -1407,6 +1441,21 @@
             "status": "AVAILABLE"
           }
         ]
+      },
+      {
+        "charger_id": 76153,
+        "charger_name": "EFL Srijan Natura 1",
+        "power_kw": 22.0,
+        "type": "AC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 46077,
+            "display_id": 1,
+            "type": "Wall",
+            "status": "AVAILABLE"
+          }
+        ]
       }
     ]
   },
@@ -1417,9 +1466,9 @@
     "address": "4A, JBS Haldane Ave, Tangra, Kolkata, West Bengal ",
     "latitude": 22.548355,
     "longitude": 88.399148,
-    "chargers_count": 1,
-    "total_sockets": 1,
-    "total_capacity_kw": 30.0,
+    "chargers_count": 3,
+    "total_sockets": 3,
+    "total_capacity_kw": 82.0,
     "chargers": [
       {
         "charger_id": 70532,
@@ -1435,6 +1484,36 @@
             "status": "AVAILABLE"
           }
         ]
+      },
+      {
+        "charger_id": 76154,
+        "charger_name": "EFL JW Marriott Hotel Kolkata 1",
+        "power_kw": 30.0,
+        "type": "DC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 46078,
+            "display_id": 1,
+            "type": "CCS-2",
+            "status": "AVAILABLE"
+          }
+        ]
+      },
+      {
+        "charger_id": 76155,
+        "charger_name": "EFL JW Marriott Hotel Kolkata 2",
+        "power_kw": 22.0,
+        "type": "AC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 46079,
+            "display_id": 1,
+            "type": "Wall",
+            "status": "FAULTED"
+          }
+        ]
       }
     ]
   },
@@ -1445,9 +1524,9 @@
     "address": "Eternia, Badu Rd, opposite NSG Hub, Madhyamgram, Kolkata, West Bengal 700155",
     "latitude": 22.693,
     "longitude": 88.446,
-    "chargers_count": 1,
-    "total_sockets": 1,
-    "total_capacity_kw": 3.0,
+    "chargers_count": 2,
+    "total_sockets": 2,
+    "total_capacity_kw": 6.0,
     "chargers": [
       {
         "charger_id": 70534,
@@ -1463,6 +1542,21 @@
             "status": "FAULTED"
           }
         ]
+      },
+      {
+        "charger_id": 76156,
+        "charger_name": "EFL Srijan Eternia  1",
+        "power_kw": 3.0,
+        "type": "AC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 46080,
+            "display_id": 1,
+            "type": "Wall",
+            "status": "FAULTED"
+          }
+        ]
       }
     ]
   },
@@ -1473,9 +1567,9 @@
     "address": "Doltala Dr Khalid clinic, Bus Stop, 59, Jessore Road South, Ganganagar, Doharia, Madhyamgram, Kolkata, West Bengal 700132",
     "latitude": 22.67902,
     "longitude": 88.46038,
-    "chargers_count": 1,
-    "total_sockets": 1,
-    "total_capacity_kw": 3.0,
+    "chargers_count": 2,
+    "total_sockets": 2,
+    "total_capacity_kw": 6.0,
     "chargers": [
       {
         "charger_id": 70535,
@@ -1491,6 +1585,21 @@
             "status": "FAULTED"
           }
         ]
+      },
+      {
+        "charger_id": 76157,
+        "charger_name": "EFL Srijan Eternis  1",
+        "power_kw": 3.0,
+        "type": "AC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 46081,
+            "display_id": 1,
+            "type": "Wall",
+            "status": "FAULTED"
+          }
+        ]
       }
     ]
   },
@@ -1501,9 +1610,9 @@
     "address": "Srijan nirvana, West Bengal 700152",
     "latitude": 22.423341,
     "longitude": 88.391435,
-    "chargers_count": 1,
-    "total_sockets": 1,
-    "total_capacity_kw": 3.0,
+    "chargers_count": 2,
+    "total_sockets": 2,
+    "total_capacity_kw": 6.0,
     "chargers": [
       {
         "charger_id": 70536,
@@ -1519,6 +1628,21 @@
             "status": "AVAILABLE"
           }
         ]
+      },
+      {
+        "charger_id": 76158,
+        "charger_name": "EFL Srijan Nirvana 1",
+        "power_kw": 3.0,
+        "type": "AC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 46082,
+            "display_id": 1,
+            "type": "Wall",
+            "status": "FAULTED"
+          }
+        ]
       }
     ]
   },
@@ -1529,9 +1653,9 @@
     "address": "P.S, HOLDING - 112, DR. B.C. ROY ROAD, MOUZA - ELACHI, Dakshin Jagaddal, Rajpur Sonarpur, Elachi P, West Bengal 700152",
     "latitude": 22.412909,
     "longitude": 88.399323,
-    "chargers_count": 1,
-    "total_sockets": 1,
-    "total_capacity_kw": 3.0,
+    "chargers_count": 2,
+    "total_sockets": 2,
+    "total_capacity_kw": 6.0,
     "chargers": [
       {
         "charger_id": 70537,
@@ -1547,6 +1671,21 @@
             "status": "AVAILABLE"
           }
         ]
+      },
+      {
+        "charger_id": 76159,
+        "charger_name": "EFL Srijan Botanica 1",
+        "power_kw": 3.0,
+        "type": "AC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 46083,
+            "display_id": 1,
+            "type": "Wall",
+            "status": "FAULTED"
+          }
+        ]
       }
     ]
   },
@@ -1557,9 +1696,9 @@
     "address": "10/3, Elgin Rd, Sreepally, Bhowanipore, Kolkata, West Bengal 700020",
     "latitude": 22.53851,
     "longitude": 88.35131,
-    "chargers_count": 1,
-    "total_sockets": 1,
-    "total_capacity_kw": 30.0,
+    "chargers_count": 2,
+    "total_sockets": 2,
+    "total_capacity_kw": 60.0,
     "chargers": [
       {
         "charger_id": 70538,
@@ -1575,6 +1714,21 @@
             "status": "AVAILABLE"
           }
         ]
+      },
+      {
+        "charger_id": 76160,
+        "charger_name": "EFL Forum Mall EV Charging Staion  1",
+        "power_kw": 30.0,
+        "type": "DC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 46084,
+            "display_id": 1,
+            "type": "CCS-2",
+            "status": "AVAILABLE"
+          }
+        ]
       }
     ]
   },
@@ -1585,9 +1739,9 @@
     "address": "Plot No. X1, 2 & 3, EP Block, Sector V,  Bidhannagar, Kolkata, West Bengal 700091.",
     "latitude": 22.571616,
     "longitude": 88.43554,
-    "chargers_count": 14,
-    "total_sockets": 16,
-    "total_capacity_kw": 324.0,
+    "chargers_count": 28,
+    "total_sockets": 32,
+    "total_capacity_kw": 648.0,
     "chargers": [
       {
         "charger_id": 70539,
@@ -1621,13 +1775,13 @@
             "id": 36833,
             "display_id": 1,
             "type": "CCS-2",
-            "status": "CHARGING"
+            "status": "AVAILABLE"
           },
           {
             "id": 36835,
             "display_id": 2,
             "type": "CCS-2",
-            "status": "AVAILABLE"
+            "status": "CHARGING"
           }
         ]
       },
@@ -1642,7 +1796,7 @@
             "id": 36825,
             "display_id": 1,
             "type": "Wall",
-            "status": "AVAILABLE"
+            "status": "CHARGING"
           }
         ]
       },
@@ -1657,7 +1811,7 @@
             "id": 36826,
             "display_id": 1,
             "type": "Wall",
-            "status": "CHARGING"
+            "status": "AVAILABLE"
           }
         ]
       },
@@ -1807,6 +1961,228 @@
             "id": 36843,
             "display_id": 1,
             "type": "Wall",
+            "status": "CHARGING"
+          }
+        ]
+      },
+      {
+        "charger_id": 76161,
+        "charger_name": "EFL ChargET Hub 1",
+        "power_kw": 60.0,
+        "type": "DC",
+        "sockets_count": 2,
+        "connectors": [
+          {
+            "id": 46085,
+            "display_id": 1,
+            "type": "CCS-2",
+            "status": "CHARGING"
+          },
+          {
+            "id": 46086,
+            "display_id": 2,
+            "type": "CCS-2",
+            "status": "CHARGING"
+          }
+        ]
+      },
+      {
+        "charger_id": 76168,
+        "charger_name": "EFL ChargET Hub 8",
+        "power_kw": 60.0,
+        "type": "DC",
+        "sockets_count": 2,
+        "connectors": [
+          {
+            "id": 46093,
+            "display_id": 1,
+            "type": "CCS-2",
+            "status": "CHARGING"
+          },
+          {
+            "id": 46094,
+            "display_id": 2,
+            "type": "CCS-2",
+            "status": "CHARGING"
+          }
+        ]
+      },
+      {
+        "charger_id": 76162,
+        "charger_name": "EFL ChargET Hub 2",
+        "power_kw": 7.0,
+        "type": "AC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 46087,
+            "display_id": 1,
+            "type": "Wall",
+            "status": "CHARGING"
+          }
+        ]
+      },
+      {
+        "charger_id": 76163,
+        "charger_name": "EFL ChargET Hub 3",
+        "power_kw": 7.0,
+        "type": "AC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 46088,
+            "display_id": 1,
+            "type": "Wall",
+            "status": "AVAILABLE"
+          }
+        ]
+      },
+      {
+        "charger_id": 76164,
+        "charger_name": "EFL ChargET Hub 4",
+        "power_kw": 7.0,
+        "type": "AC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 46089,
+            "display_id": 1,
+            "type": "Wall",
+            "status": "FAULTED"
+          }
+        ]
+      },
+      {
+        "charger_id": 76165,
+        "charger_name": "EFL ChargET Hub 5",
+        "power_kw": 7.0,
+        "type": "AC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 46090,
+            "display_id": 1,
+            "type": "Wall",
+            "status": "FAULTED"
+          }
+        ]
+      },
+      {
+        "charger_id": 76166,
+        "charger_name": "EFL ChargET Hub 6",
+        "power_kw": 7.0,
+        "type": "AC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 46091,
+            "display_id": 1,
+            "type": "Wall",
+            "status": "FAULTED"
+          }
+        ]
+      },
+      {
+        "charger_id": 76167,
+        "charger_name": "EFL ChargET Hub 7",
+        "power_kw": 7.0,
+        "type": "AC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 46092,
+            "display_id": 1,
+            "type": "Wall",
+            "status": "FAULTED"
+          }
+        ]
+      },
+      {
+        "charger_id": 76169,
+        "charger_name": "EFL ChargET Hub 9",
+        "power_kw": 7.0,
+        "type": "AC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 46095,
+            "display_id": 1,
+            "type": "Wall",
+            "status": "CHARGING"
+          }
+        ]
+      },
+      {
+        "charger_id": 76170,
+        "charger_name": "EFL ChargET Hub 10",
+        "power_kw": 7.0,
+        "type": "AC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 46096,
+            "display_id": 1,
+            "type": "Wall",
+            "status": "CHARGING"
+          }
+        ]
+      },
+      {
+        "charger_id": 76171,
+        "charger_name": "EFL ChargET Hub 11",
+        "power_kw": 7.0,
+        "type": "AC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 46097,
+            "display_id": 1,
+            "type": "Wall",
+            "status": "CHARGING"
+          }
+        ]
+      },
+      {
+        "charger_id": 76172,
+        "charger_name": "EFL ChargET Hub 12",
+        "power_kw": 7.0,
+        "type": "AC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 46098,
+            "display_id": 1,
+            "type": "Wall",
+            "status": "CHARGING"
+          }
+        ]
+      },
+      {
+        "charger_id": 76173,
+        "charger_name": "EFL ChargET Hub 13",
+        "power_kw": 7.0,
+        "type": "AC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 46099,
+            "display_id": 1,
+            "type": "Wall",
+            "status": "AVAILABLE"
+          }
+        ]
+      },
+      {
+        "charger_id": 76174,
+        "charger_name": "EFL ChargET Hub 14",
+        "power_kw": 7.0,
+        "type": "AC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 46100,
+            "display_id": 1,
+            "type": "Wall",
             "status": "AVAILABLE"
           }
         ]
@@ -1820,9 +2196,9 @@
     "address": "Diamond Residency, 38,Ho Chi Minh Sarani,Behala,Kolkata-700061, Biren Roy Road W, Bakultala, Behala, Kolkata, West Bengal 700061",
     "latitude": 22.48537,
     "longitude": 88.300902,
-    "chargers_count": 1,
-    "total_sockets": 3,
-    "total_capacity_kw": 39.0,
+    "chargers_count": 2,
+    "total_sockets": 6,
+    "total_capacity_kw": 78.0,
     "chargers": [
       {
         "charger_id": 70546,
@@ -1850,6 +2226,33 @@
             "status": "AVAILABLE"
           }
         ]
+      },
+      {
+        "charger_id": 76175,
+        "charger_name": "EFL DIAMOND RESIDENCY  1",
+        "power_kw": 13.0,
+        "type": "AC",
+        "sockets_count": 3,
+        "connectors": [
+          {
+            "id": 46101,
+            "display_id": 1,
+            "type": "Wall",
+            "status": "FAULTED"
+          },
+          {
+            "id": 46102,
+            "display_id": 2,
+            "type": "Wall",
+            "status": "AVAILABLE"
+          },
+          {
+            "id": 46103,
+            "display_id": 3,
+            "type": "Wall",
+            "status": "FAULTED"
+          }
+        ]
       }
     ]
   },
@@ -1875,13 +2278,13 @@
             "id": 37192,
             "display_id": 1,
             "type": "CCS-2",
-            "status": "CHARGING"
+            "status": "AVAILABLE"
           },
           {
             "id": 37193,
             "display_id": 2,
             "type": "CCS-2",
-            "status": "AVAILABLE"
+            "status": "CHARGING"
           }
         ]
       }
@@ -1909,13 +2312,13 @@
             "id": 37965,
             "display_id": 1,
             "type": "CCS-2",
-            "status": "AVAILABLE"
+            "status": "CHARGING"
           },
           {
             "id": 37966,
             "display_id": 2,
             "type": "CCS-2",
-            "status": "AVAILABLE"
+            "status": "CHARGING"
           }
         ]
       }
@@ -2446,7 +2849,116 @@
             "id": 40884,
             "display_id": 2,
             "type": "CCS-2",
+            "status": "CHARGING"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "station_id": 17354,
+    "name": "EarthtronEV Kalikapur, Newtown",
+    "brand": "Statiq",
+    "address": "Kadampukur - Jhalgachhi Rd, Chotto Chandpur, Bishnupur, Kalikapur, West Bengal 700135",
+    "latitude": 22.586937,
+    "longitude": 88.504368,
+    "chargers_count": 6,
+    "total_sockets": 7,
+    "total_capacity_kw": 390.0,
+    "chargers": [
+      {
+        "charger_id": 72703,
+        "charger_name": "ELC EarthtronEV Kalikapur, Newtown 1",
+        "power_kw": 30.0,
+        "type": "DC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 40885,
+            "display_id": 1,
+            "type": "CCS-2",
+            "status": "CHARGING"
+          }
+        ]
+      },
+      {
+        "charger_id": 72704,
+        "charger_name": "ELC EarthtronEV Kalikapur, Newtown 2",
+        "power_kw": 30.0,
+        "type": "DC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 40886,
+            "display_id": 1,
+            "type": "CCS-2",
+            "status": "CHARGING"
+          }
+        ]
+      },
+      {
+        "charger_id": 72705,
+        "charger_name": "ELC EarthtronEV Kalikapur, Newtown 3",
+        "power_kw": 30.0,
+        "type": "DC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 40887,
+            "display_id": 1,
+            "type": "CCS-2",
             "status": "AVAILABLE"
+          }
+        ]
+      },
+      {
+        "charger_id": 72706,
+        "charger_name": "ELC EarthtronEV Kalikapur, Newtown 4",
+        "power_kw": 120.0,
+        "type": "DC",
+        "sockets_count": 2,
+        "connectors": [
+          {
+            "id": 40888,
+            "display_id": 1,
+            "type": "CCS-2",
+            "status": "AVAILABLE"
+          },
+          {
+            "id": 40889,
+            "display_id": 2,
+            "type": "CCS-2",
+            "status": "AVAILABLE"
+          }
+        ]
+      },
+      {
+        "charger_id": 72707,
+        "charger_name": "ELC EarthtronEV Kalikapur, Newtown 5",
+        "power_kw": 30.0,
+        "type": "DC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 40890,
+            "display_id": 1,
+            "type": "CCS-2",
+            "status": "CHARGING"
+          }
+        ]
+      },
+      {
+        "charger_id": 72708,
+        "charger_name": "ELC EarthtronEV Kalikapur, Newtown 6",
+        "power_kw": 30.0,
+        "type": "DC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 40891,
+            "display_id": 1,
+            "type": "CCS-2",
+            "status": "CHARGING"
           }
         ]
       }
@@ -2585,7 +3097,7 @@
             "id": 44628,
             "display_id": 2,
             "type": "CCS-2",
-            "status": "AVAILABLE"
+            "status": "CHARGING"
           }
         ]
       },
@@ -2600,7 +3112,7 @@
             "id": 44629,
             "display_id": 1,
             "type": "CCS-2",
-            "status": "AVAILABLE"
+            "status": "CHARGING"
           }
         ]
       }
@@ -2628,7 +3140,7 @@
             "id": 45638,
             "display_id": 1,
             "type": "Type-2",
-            "status": "FAULTED"
+            "status": "AVAILABLE"
           }
         ]
       }
@@ -3022,6 +3534,42 @@
     ]
   },
   {
+    "station_id": "TATA_IHCL_Taj_Raajkutir_Kolkata_Seleqtions_Hotel_By_IHCL_Public",
+    "name": "Taj Raajkutir, Kolkata, Seleqtions Hotel By IHCL",
+    "brand": "Tata Power EZ Charge",
+    "address": "Kolkata, West Bengal",
+    "latitude": 22.574249,
+    "longitude": 88.402203,
+    "chargers_count": 1,
+    "total_sockets": 2,
+    "total_capacity_kw": 120.0,
+    "chargers": [
+      {
+        "charger_id": "TP_IHCL_Taj_Raajkutir_Kolkata_Seleqtions_Hotel_By_IHCL_Public_C1",
+        "charger_name": "Tata Power EZ Fast Unit",
+        "power_kw": 60.0,
+        "type": "DC",
+        "sockets_count": 2,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 2,
+            "display_id": 2,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "station_id": "TATA_IHCL_Taj_Taj_Bengal_Alipore_Private",
     "name": "Taj Bengal, Alipore (private Charger)",
     "brand": "Tata Power EZ Charge",
@@ -3034,6 +3582,42 @@
     "chargers": [
       {
         "charger_id": "TP_IHCL_Taj_Taj_Bengal_Alipore_Private_C1",
+        "charger_name": "Tata Power EZ Fast Unit",
+        "power_kw": 60.0,
+        "type": "DC",
+        "sockets_count": 2,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 2,
+            "display_id": 2,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "station_id": "TATA_IHCL_Taj_Taj_Bengal_Alipore_Public",
+    "name": "Taj Bengal, Alipore",
+    "brand": "Tata Power EZ Charge",
+    "address": "Kolkata, West Bengal",
+    "latitude": 22.538414,
+    "longitude": 88.333999,
+    "chargers_count": 1,
+    "total_sockets": 2,
+    "total_capacity_kw": 120.0,
+    "chargers": [
+      {
+        "charger_id": "TP_IHCL_Taj_Taj_Bengal_Alipore_Public_C1",
         "charger_name": "Tata Power EZ Fast Unit",
         "power_kw": 60.0,
         "type": "DC",
@@ -3245,6 +3829,56 @@
     ]
   },
   {
+    "station_id": "TATA_IOCL_Drive_In_Dutta_Bagan_Belgachia",
+    "name": "IOCL Drive In Dutta Bagan Belgachia Charging station",
+    "brand": "Tata Power EZ Charge",
+    "address": "Kolkata, West Bengal",
+    "latitude": 22.607396,
+    "longitude": 88.392281,
+    "chargers_count": 1,
+    "total_sockets": 4,
+    "total_capacity_kw": 120.0,
+    "chargers": [
+      {
+        "charger_id": "TP_IOCL_Drive_In_Dutta_Bagan_Belgachia_C1",
+        "charger_name": "Tata Power EZ Fast Unit",
+        "power_kw": 30.0,
+        "type": "DC",
+        "sockets_count": 4,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 30.0
+          },
+          {
+            "id": 2,
+            "display_id": 2,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 30.0
+          },
+          {
+            "id": 3,
+            "display_id": 3,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 30.0
+          },
+          {
+            "id": 4,
+            "display_id": 4,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 30.0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "station_id": "TATA_IOCL_Dwaraka_Service_Rajbari_Dum_Dum",
     "name": "IOCL Dwaraka Service Rajbari DumDum Charging Station",
     "brand": "Tata Power EZ Charge",
@@ -3266,14 +3900,14 @@
             "id": 1,
             "display_id": 1,
             "type": "CCS-2 (60kW)",
-            "status": "FAULTED",
+            "status": "AVAILABLE",
             "power_kw": 60.0
           },
           {
             "id": 2,
             "display_id": 2,
             "type": "CCS-2 (60kW)",
-            "status": "FAULTED",
+            "status": "AVAILABLE",
             "power_kw": 60.0
           }
         ]
@@ -3387,6 +4021,35 @@
     "chargers": [
       {
         "charger_id": "TP_Mall_Ambuja_Neotia_City_Centre_1_C1",
+        "charger_name": "Tata Power EZ Fast Unit",
+        "power_kw": 60.0,
+        "type": "DC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "station_id": "TATA_Mall_Ambuja_Neotia_City_Centre_2",
+    "name": "Ambuja Neotia City Centre 2 Charging Station",
+    "brand": "Tata Power EZ Charge",
+    "address": "North 24 Parganas, West Bengal",
+    "latitude": 22.623499,
+    "longitude": 88.450757,
+    "chargers_count": 1,
+    "total_sockets": 1,
+    "total_capacity_kw": 60.0,
+    "chargers": [
+      {
+        "charger_id": "TP_Mall_Ambuja_Neotia_City_Centre_2_C1",
         "charger_name": "Tata Power EZ Fast Unit",
         "power_kw": 60.0,
         "type": "DC",
@@ -3598,6 +4261,35 @@
     ]
   },
   {
+    "station_id": "TATA_Residential_Sunrise_Green_New_Town",
+    "name": "Sunrise Green New Town (Private Charger)",
+    "brand": "Tata Power EZ Charge",
+    "address": "North 24 Parganas, West Bengal",
+    "latitude": 22.58911,
+    "longitude": 88.45962,
+    "chargers_count": 1,
+    "total_sockets": 1,
+    "total_capacity_kw": 60.0,
+    "chargers": [
+      {
+        "charger_id": "TP_Residential_Sunrise_Green_New_Town_C1",
+        "charger_name": "Tata Power EZ Fast Unit",
+        "power_kw": 60.0,
+        "type": "DC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "CCS-2 (60kW)",
+            "status": "FAULTED",
+            "power_kw": 60.0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "station_id": "TATA_TML_KB_Motors_Alipore_Kolkata",
     "name": "TML KB Motors Alipore Kolkata Charging Station",
     "brand": "Tata Power EZ Charge",
@@ -3610,6 +4302,35 @@
     "chargers": [
       {
         "charger_id": "TP_TML_KB_Motors_Alipore_Kolkata_C1",
+        "charger_name": "Tata Power EZ Fast Unit",
+        "power_kw": 60.0,
+        "type": "DC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "CCS-2 (60kW)",
+            "status": "FAULTED",
+            "power_kw": 60.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "station_id": "TATA_TML_KB_Motors_Park_Circus",
+    "name": "KB Motors Park Circus",
+    "brand": "Tata Power EZ Charge",
+    "address": "Kolkata, West Bengal",
+    "latitude": 22.546073,
+    "longitude": 88.373391,
+    "chargers_count": 1,
+    "total_sockets": 1,
+    "total_capacity_kw": 60.0,
+    "chargers": [
+      {
+        "charger_id": "TP_TML_KB_Motors_Park_Circus_C1",
         "charger_name": "Tata Power EZ Fast Unit",
         "power_kw": 60.0,
         "type": "DC",
@@ -3814,14 +4535,14 @@
             "id": 1,
             "display_id": 1,
             "type": "CCS-2 (60kW)",
-            "status": "FAULTED",
+            "status": "AVAILABLE",
             "power_kw": 60.0
           },
           {
             "id": 2,
             "display_id": 2,
             "type": "CCS-2 (60kW)",
-            "status": "FAULTED",
+            "status": "AVAILABLE",
             "power_kw": 60.0
           }
         ]
@@ -4010,6 +4731,86 @@
             "type": "CCS-2 (60kW)",
             "status": "AVAILABLE",
             "power_kw": 60.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "station_id": "TATA_commercials_Ambuja_Neotia_Ecospace_4B_Building",
+    "name": "Ambuja Neotia Ecospace 4B Building Charging station",
+    "brand": "Tata Power EZ Charge",
+    "address": "North 24 Parganas, West Bengal",
+    "latitude": 22.5854783,
+    "longitude": 88.4913817,
+    "chargers_count": 1,
+    "total_sockets": 2,
+    "total_capacity_kw": 120.0,
+    "chargers": [
+      {
+        "charger_id": "TP_commercials_Ambuja_Neotia_Ecospace_4B_Building_C1",
+        "charger_name": "Tata Power EZ Fast Unit",
+        "power_kw": 60.0,
+        "type": "DC",
+        "sockets_count": 2,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 2,
+            "display_id": 2,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "station_id": "CZ_6954bd688cf183eceb1ab475",
+    "cz_id": "6954bd688cf183eceb1ab475",
+    "name": "Kia Charging Station || Eastern Kia ||  Kolkata",
+    "brand": "ChargeZone",
+    "address": "Plot No - IID 9/1, AA II, Newtown",
+    "latitude": 22.61999,
+    "longitude": 88.4632828,
+    "chargers_count": 2,
+    "total_sockets": 2,
+    "total_capacity_kw": 300.0,
+    "chargers": [
+      {
+        "charger_id": "6954bd6971d6fa330867f03b",
+        "charger_name": "ChargeZone Unit 1",
+        "power_kw": 30.0,
+        "type": "DC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 2,
+            "display_id": 2,
+            "type": "CCS2",
+            "status": "AVAILABLE"
+          }
+        ]
+      },
+      {
+        "charger_id": "6954bd6971d6fa330867f449",
+        "charger_name": "ChargeZone Unit 2",
+        "power_kw": 30.0,
+        "type": "DC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "CCS2",
+            "status": "AVAILABLE"
           }
         ]
       }
@@ -5392,6 +6193,41 @@
     ]
   },
   {
+    "station_id": "CZ_6350d725af27764f2a7917dc",
+    "cz_id": "6350d725af27764f2a7917dc",
+    "name": "WB | Kolkata | MB#Landmark Cars Kolkata",
+    "brand": "ChargeZone",
+    "address": "Ground Floor, Landmark Cars (East) Private Limited - Benchmark Interkrafts, Ideal Unique Centre, 10, E Topsia Rd, Kolkata, West Bengal 700046",
+    "latitude": 22.536269638110426,
+    "longitude": 88.39595131508334,
+    "chargers_count": 1,
+    "total_sockets": 2,
+    "total_capacity_kw": 120.0,
+    "chargers": [
+      {
+        "charger_id": "6350d7a4af27764f2a7918d5",
+        "charger_name": "ChargeZone Unit 1",
+        "power_kw": 30.0,
+        "type": "DC",
+        "sockets_count": 2,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "CCS2",
+            "status": "AVAILABLE"
+          },
+          {
+            "id": 2,
+            "display_id": 2,
+            "type": "CCS2",
+            "status": "AVAILABLE"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "station_id": "CZ_63edfd350487e459e03b0db4",
     "cz_id": "63edfd350487e459e03b0db4",
     "name": "WB | Kolkata | SE#O2 Hub_Steelman Project",
@@ -6753,6 +7589,50 @@
     ]
   },
   {
+    "station_id": "CZ_67e58b532a6dd3b44caddd5a",
+    "cz_id": "67e58b532a6dd3b44caddd5a",
+    "name": "BYPASS SERVICES (I-421)",
+    "brand": "ChargeZone",
+    "address": "PLOT-3BRASH BEHARI AV.CONNECT RAJDANGA NABAPALLY KOLKATA - 700107 (W.B)",
+    "latitude": 22.513983,
+    "longitude": 88.393726,
+    "chargers_count": 2,
+    "total_sockets": 2,
+    "total_capacity_kw": 60.0,
+    "chargers": [
+      {
+        "charger_id": "67e58b76bff3a45a55de92cf",
+        "charger_name": "ChargeZone Unit 1",
+        "power_kw": 30.0,
+        "type": "DC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "CCS2",
+            "status": "FAULTED"
+          }
+        ]
+      },
+      {
+        "charger_id": "67e58b77bff3a45a55de96ba",
+        "charger_name": "ChargeZone Unit 2",
+        "power_kw": 30.0,
+        "type": "DC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 2,
+            "display_id": 2,
+            "type": "CCS2",
+            "status": "FAULTED"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "station_id": "CZ_67e58b582a6dd3b44cae0cfd",
     "cz_id": "67e58b582a6dd3b44cae0cfd",
     "name": "Budge Budge BP",
@@ -6775,6 +7655,230 @@
             "id": 1,
             "display_id": 1,
             "type": "CCS-2",
+            "status": "FAULTED"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "station_id": "CZ_67e2aeb9b144742e8087f874",
+    "cz_id": "67e2aeb9b144742e8087f874",
+    "name": "ChargET Hub",
+    "brand": "ChargeZone",
+    "address": "Plot No. X 1, 2 & 3, EP Block, Sector V,  Bidhannagar, Kolkata, West Bengal 700091",
+    "latitude": 22.5716157,
+    "longitude": 88.43553972,
+    "chargers_count": 14,
+    "total_sockets": 14,
+    "total_capacity_kw": 195.0,
+    "chargers": [
+      {
+        "charger_id": "67e2aeb92addd1f7ce0d33db",
+        "charger_name": "ChargeZone Unit 1",
+        "power_kw": 30.0,
+        "type": "DC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 2,
+            "display_id": 2,
+            "type": "CCS2",
+            "status": "AVAILABLE"
+          }
+        ]
+      },
+      {
+        "charger_id": "67e2aeb92addd1f7ce0d33e2",
+        "charger_name": "ChargeZone Unit 2",
+        "power_kw": 30.0,
+        "type": "DC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "CCS2",
+            "status": "AVAILABLE"
+          }
+        ]
+      },
+      {
+        "charger_id": "68e0c638a055625aa1d38964",
+        "charger_name": "ChargeZone Unit 3",
+        "power_kw": 30.0,
+        "type": "AC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "AC001",
+            "status": "AVAILABLE"
+          }
+        ]
+      },
+      {
+        "charger_id": "699d46dfcd85633871ecde84",
+        "charger_name": "ChargeZone Unit 4",
+        "power_kw": 30.0,
+        "type": "AC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "AC001",
+            "status": "AVAILABLE"
+          }
+        ]
+      },
+      {
+        "charger_id": "699d46dfcd85633871ecdf1d",
+        "charger_name": "ChargeZone Unit 5",
+        "power_kw": 30.0,
+        "type": "AC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "AC001",
+            "status": "AVAILABLE"
+          }
+        ]
+      },
+      {
+        "charger_id": "699d46dfcd85633871ece286",
+        "charger_name": "ChargeZone Unit 6",
+        "power_kw": 30.0,
+        "type": "DC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 2,
+            "display_id": 2,
+            "type": "CCS2",
+            "status": "FAULTED"
+          }
+        ]
+      },
+      {
+        "charger_id": "699d46dfcd85633871ece4ea",
+        "charger_name": "ChargeZone Unit 7",
+        "power_kw": 30.0,
+        "type": "AC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "AC001",
+            "status": "AVAILABLE"
+          }
+        ]
+      },
+      {
+        "charger_id": "699d46dfcd85633871ece4fd",
+        "charger_name": "ChargeZone Unit 8",
+        "power_kw": 30.0,
+        "type": "AC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "AC001",
+            "status": "FAULTED"
+          }
+        ]
+      },
+      {
+        "charger_id": "68e0c638a055625aa1d389b6",
+        "charger_name": "ChargeZone Unit 9",
+        "power_kw": 30.0,
+        "type": "AC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "AC001",
+            "status": "FAULTED"
+          }
+        ]
+      },
+      {
+        "charger_id": "699d46dfcd85633871ece117",
+        "charger_name": "ChargeZone Unit 10",
+        "power_kw": 30.0,
+        "type": "DC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "CCS2",
+            "status": "FAULTED"
+          }
+        ]
+      },
+      {
+        "charger_id": "68e0c638a055625aa1d38954",
+        "charger_name": "ChargeZone Unit 11",
+        "power_kw": 30.0,
+        "type": "AC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "AC001",
+            "status": "FAULTED"
+          }
+        ]
+      },
+      {
+        "charger_id": "68e0c638a055625aa1d38975",
+        "charger_name": "ChargeZone Unit 12",
+        "power_kw": 30.0,
+        "type": "AC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "AC001",
+            "status": "FAULTED"
+          }
+        ]
+      },
+      {
+        "charger_id": "68e0c638a055625aa1d38989",
+        "charger_name": "ChargeZone Unit 13",
+        "power_kw": 30.0,
+        "type": "AC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "AC001",
+            "status": "FAULTED"
+          }
+        ]
+      },
+      {
+        "charger_id": "68e0c638a055625aa1d389aa",
+        "charger_name": "ChargeZone Unit 14",
+        "power_kw": 30.0,
+        "type": "AC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "AC001",
             "status": "FAULTED"
           }
         ]
@@ -7236,6 +8340,94 @@
     ]
   },
   {
+    "station_id": "CZ_6954bd688cf183eceb1ab42d",
+    "cz_id": "6954bd688cf183eceb1ab42d",
+    "name": "Sanwaria Kia",
+    "brand": "ChargeZone",
+    "address": "2, Mirania Road, Village- Arupota, Near Sceince City, KMC Ward No- 058, PS- Pragati Maidan , Kolkata, 700105\\",
+    "latitude": 22.5363798,
+    "longitude": 88.4015748,
+    "chargers_count": 2,
+    "total_sockets": 2,
+    "total_capacity_kw": 180.0,
+    "chargers": [
+      {
+        "charger_id": "6954bd6871d6fa330867ef04",
+        "charger_name": "ChargeZone Unit 1",
+        "power_kw": 30.0,
+        "type": "DC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "CCS2",
+            "status": "FAULTED"
+          }
+        ]
+      },
+      {
+        "charger_id": "6954bd6971d6fa330867f261",
+        "charger_name": "ChargeZone Unit 2",
+        "power_kw": 30.0,
+        "type": "DC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 2,
+            "display_id": 2,
+            "type": "CCS2",
+            "status": "FAULTED"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "station_id": "CZ_67e2aeb8b144742e8087f6fc",
+    "cz_id": "67e2aeb8b144742e8087f6fc",
+    "name": "Srijan Natura",
+    "brand": "ChargeZone",
+    "address": "4A, JBS Haldane Ave, Tangra, Kolkata, West Be",
+    "latitude": 22.4965894,
+    "longitude": 88.3337922,
+    "chargers_count": 2,
+    "total_sockets": 2,
+    "total_capacity_kw": 60.0,
+    "chargers": [
+      {
+        "charger_id": "67e2aeb82addd1f7ce0d2d08",
+        "charger_name": "ChargeZone Unit 1",
+        "power_kw": 30.0,
+        "type": "DC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "CCS2",
+            "status": "AVAILABLE"
+          }
+        ]
+      },
+      {
+        "charger_id": "67e2aeb82addd1f7ce0d2d0a",
+        "charger_name": "ChargeZone Unit 2",
+        "power_kw": 30.0,
+        "type": "DC",
+        "sockets_count": 1,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "CCS2",
+            "status": "AVAILABLE"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "station_id": "CZ_67e58b572a6dd3b44cae0508",
     "cz_id": "67e58b572a6dd3b44cae0508",
     "name": "UMA SERVICE STATION",
@@ -7645,19 +8837,77 @@
     ]
   },
   {
-    "station_id": "JIO_2377",
-    "loc_id": 2377,
-    "name": "Jiobp Mobility Station, Sodepur",
+    "station_id": "JIO_194",
+    "loc_id": 194,
+    "name": "JIOBP WBSEDCL, Belghoria",
     "brand": "Jio-bp pulse",
-    "address": "P94F+JJR, Khardaha, West Bengal, India, Barrackpur, North Twentyfour Parganas, West Bengal, 700115",
-    "latitude": 22.7066125,
-    "longitude": 88.37401559999999,
+    "address": "30/2, Madhusudan Banerjee Rd, Rabindra Nagar, Alipore, Nimta, North Dumdum, West Bengal 700049",
+    "latitude": 22.6628031,
+    "longitude": 88.4062515,
+    "chargers_count": 1,
+    "total_sockets": 5,
+    "total_capacity_kw": 300.0,
+    "chargers": [
+      {
+        "charger_id": "JIO_194_C1",
+        "charger_name": "Jio-bp pulse Fast Unit",
+        "power_kw": 60.0,
+        "type": "DC",
+        "sockets_count": 5,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 2,
+            "display_id": 2,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 3,
+            "display_id": 3,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 4,
+            "display_id": 4,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 5,
+            "display_id": 5,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "station_id": "JIO_2363",
+    "loc_id": 2363,
+    "name": "Jiobp Sonar Bangla Farm Resorts Pvt Ltd",
+    "brand": "Jio-bp pulse",
+    "address": "NH-6, BOMBAY ROAD, DHULAGORI, Howrah, West Bengal, Sankrail, Haora, West Bengal, 711302",
+    "latitude": 22.5738125,
+    "longitude": 88.18767190000001,
     "chargers_count": 1,
     "total_sockets": 2,
     "total_capacity_kw": 120.0,
     "chargers": [
       {
-        "charger_id": "JIO_2377_C1",
+        "charger_id": "JIO_2363_C1",
         "charger_name": "Jio-bp pulse Fast Unit",
         "power_kw": 60.0,
         "type": "DC",
@@ -7675,6 +8925,391 @@
             "display_id": 2,
             "type": "CCS-2 (60kW)",
             "status": "AVAILABLE",
+            "power_kw": 60.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "station_id": "JIO_2383",
+    "loc_id": 2383,
+    "name": "Jiobp Magnolia Oxygen, Kalaberia",
+    "brand": "Jio-bp pulse",
+    "address": "Magnolia Oxygen, Kalaberia, Shibtala, Kalaberia, West Bengal, Rajarhat Gopalpur, North Twentyfour Parganas, West Bengal, 700135",
+    "latitude": 22.62018799,
+    "longitude": 88.49644758,
+    "chargers_count": 1,
+    "total_sockets": 4,
+    "total_capacity_kw": 240.0,
+    "chargers": [
+      {
+        "charger_id": "JIO_2383_C1",
+        "charger_name": "Jio-bp pulse Fast Unit",
+        "power_kw": 60.0,
+        "type": "DC",
+        "sockets_count": 4,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 2,
+            "display_id": 2,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 3,
+            "display_id": 3,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 4,
+            "display_id": 4,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "station_id": "JIO_2540",
+    "loc_id": 2540,
+    "name": "Jiobp Metro Cash & Carry, Kolkata",
+    "brand": "Jio-bp pulse",
+    "address": "No 332, Mauza Barakholla, JL 21, Eastern Metropolitan Bypass, Kolkata, Kolkata, West Bengal, 700099",
+    "latitude": 22.4962625,
+    "longitude": 88.3990469,
+    "chargers_count": 1,
+    "total_sockets": 2,
+    "total_capacity_kw": 120.0,
+    "chargers": [
+      {
+        "charger_id": "JIO_2540_C1",
+        "charger_name": "Jio-bp pulse Fast Unit",
+        "power_kw": 60.0,
+        "type": "DC",
+        "sockets_count": 2,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 2,
+            "display_id": 2,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "station_id": "JIO_2619",
+    "loc_id": 2619,
+    "name": "Jiobp CENTRUS MALL",
+    "brand": "Jio-bp pulse",
+    "address": "HFJV+HCM, AA II, Newtown, New Town, Chakpachuria, West Bengal, Kolkata, Kolkata, West Bengal, 700160",
+    "latitude": 22.58150987,
+    "longitude": 88.49354029644,
+    "chargers_count": 1,
+    "total_sockets": 12,
+    "total_capacity_kw": 720.0,
+    "chargers": [
+      {
+        "charger_id": "JIO_2619_C1",
+        "charger_name": "Jio-bp pulse Fast Unit",
+        "power_kw": 60.0,
+        "type": "DC",
+        "sockets_count": 12,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 2,
+            "display_id": 2,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 3,
+            "display_id": 3,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 4,
+            "display_id": 4,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 5,
+            "display_id": 5,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 6,
+            "display_id": 6,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 7,
+            "display_id": 7,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 8,
+            "display_id": 8,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 9,
+            "display_id": 9,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 10,
+            "display_id": 10,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 11,
+            "display_id": 11,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 12,
+            "display_id": 12,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "station_id": "JIO_2376",
+    "loc_id": 2376,
+    "name": "Jiobp Jalvayu Towers, New Town",
+    "brand": "Jio-bp pulse",
+    "address": "Jalvayu Towers, Plot No. DJ -06, Action Area-I (D, Kolkata, Kolkata, West Bengal, 700160",
+    "latitude": 22.5687049,
+    "longitude": 88.47251472,
+    "chargers_count": 1,
+    "total_sockets": 3,
+    "total_capacity_kw": 180.0,
+    "chargers": [
+      {
+        "charger_id": "JIO_2376_C1",
+        "charger_name": "Jio-bp pulse Fast Unit",
+        "power_kw": 60.0,
+        "type": "DC",
+        "sockets_count": 3,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 2,
+            "display_id": 2,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 3,
+            "display_id": 3,
+            "type": "CCS-2 (60kW)",
+            "status": "FAULTED",
+            "power_kw": 60.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "station_id": "JIO_587",
+    "loc_id": 587,
+    "name": "Jiobp WBSEDCL, Old Calcutta",
+    "brand": "Jio-bp pulse",
+    "address": "Old Calcutta Rd, Math Para, Titagarh, Barrackpore, West Bengal, India, Kolkata, Kolkata, West Bengal, 700119",
+    "latitude": 22.74802,
+    "longitude": 88.38156,
+    "chargers_count": 1,
+    "total_sockets": 4,
+    "total_capacity_kw": 240.0,
+    "chargers": [
+      {
+        "charger_id": "JIO_587_C1",
+        "charger_name": "Jio-bp pulse Fast Unit",
+        "power_kw": 60.0,
+        "type": "DC",
+        "sockets_count": 4,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 2,
+            "display_id": 2,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 3,
+            "display_id": 3,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 4,
+            "display_id": 4,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "station_id": "JIO_2355",
+    "loc_id": 2355,
+    "name": "Jiobp WBSEDCL, Tongtala",
+    "brand": "Jio-bp pulse",
+    "address": "Tongtola 33/11 KV Substation, Bakultala, Tongtala, Baruipur, Kolkata, Kolkata, West Bengal, 700145",
+    "latitude": 22.3634125,
+    "longitude": 88.3952656,
+    "chargers_count": 1,
+    "total_sockets": 5,
+    "total_capacity_kw": 300.0,
+    "chargers": [
+      {
+        "charger_id": "JIO_2355_C1",
+        "charger_name": "Jio-bp pulse Fast Unit",
+        "power_kw": 60.0,
+        "type": "DC",
+        "sockets_count": 5,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 2,
+            "display_id": 2,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 3,
+            "display_id": 3,
+            "type": "CCS-2 (60kW)",
+            "status": "FAULTED",
+            "power_kw": 60.0
+          },
+          {
+            "id": 4,
+            "display_id": 4,
+            "type": "CCS-2 (60kW)",
+            "status": "FAULTED",
+            "power_kw": 60.0
+          },
+          {
+            "id": 5,
+            "display_id": 5,
+            "type": "CCS-2 (60kW)",
+            "status": "FAULTED",
+            "power_kw": 60.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "station_id": "JIO_2356",
+    "loc_id": 2356,
+    "name": "Jiobp Novotel Kolkata",
+    "brand": "Jio-bp pulse",
+    "address": "Premises No. 21, MAR, Plot No. CF/11, AA-IC, New Town, Kolkata, North 24 Parganas, North 24 Parganas, Barasat Sadar, Kolkata, Kolkata, West Bengal, 700156",
+    "latitude": 22.5793375,
+    "longitude": 88.4618594,
+    "chargers_count": 1,
+    "total_sockets": 2,
+    "total_capacity_kw": 120.0,
+    "chargers": [
+      {
+        "charger_id": "JIO_2356_C1",
+        "charger_name": "Jio-bp pulse Fast Unit",
+        "power_kw": 60.0,
+        "type": "DC",
+        "sockets_count": 2,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "CCS-2 (60kW)",
+            "status": "FAULTED",
+            "power_kw": 60.0
+          },
+          {
+            "id": 2,
+            "display_id": 2,
+            "type": "CCS-2 (60kW)",
+            "status": "FAULTED",
             "power_kw": 60.0
           }
         ]
@@ -8194,28 +9829,28 @@
             "id": 71,
             "display_id": 71,
             "type": "CCS-2 (60kW)",
-            "status": "FAULTED",
+            "status": "AVAILABLE",
             "power_kw": 60.0
           },
           {
             "id": 72,
             "display_id": 72,
             "type": "CCS-2 (60kW)",
-            "status": "FAULTED",
+            "status": "AVAILABLE",
             "power_kw": 60.0
           },
           {
             "id": 73,
             "display_id": 73,
             "type": "CCS-2 (60kW)",
-            "status": "FAULTED",
+            "status": "AVAILABLE",
             "power_kw": 60.0
           },
           {
             "id": 74,
             "display_id": 74,
             "type": "CCS-2 (60kW)",
-            "status": "FAULTED",
+            "status": "AVAILABLE",
             "power_kw": 60.0
           },
           {
@@ -8279,19 +9914,19 @@
     ]
   },
   {
-    "station_id": "JIO_194",
-    "loc_id": 194,
-    "name": "JIOBP WBSEDCL, Belghoria",
+    "station_id": "JIO_2366",
+    "loc_id": 2366,
+    "name": "Jiobp (Restricted) Elita Garden Vista",
     "brand": "Jio-bp pulse",
-    "address": "30/2, Madhusudan Banerjee Rd, Rabindra Nagar, Alipore, Nimta, North Dumdum, West Bengal 700049",
-    "latitude": 22.6628031,
-    "longitude": 88.4062515,
+    "address": "Plot 111E, 4/1, Shapoorji Pallonji Sukhobrishti Complex Rd, Action Area III, Newtown, New Town, West Bengal, Kolkata, Kolkata, West Bengal, 700135",
+    "latitude": 22.5678125,
+    "longitude": 88.5164844,
     "chargers_count": 1,
     "total_sockets": 5,
     "total_capacity_kw": 300.0,
     "chargers": [
       {
-        "charger_id": "JIO_194_C1",
+        "charger_id": "JIO_2366_C1",
         "charger_name": "Jio-bp pulse Fast Unit",
         "power_kw": 60.0,
         "type": "DC",
@@ -8308,28 +9943,28 @@
             "id": 2,
             "display_id": 2,
             "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
+            "status": "FAULTED",
             "power_kw": 60.0
           },
           {
             "id": 3,
             "display_id": 3,
             "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
+            "status": "FAULTED",
             "power_kw": 60.0
           },
           {
             "id": 4,
             "display_id": 4,
             "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
+            "status": "FAULTED",
             "power_kw": 60.0
           },
           {
             "id": 5,
             "display_id": 5,
             "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
+            "status": "FAULTED",
             "power_kw": 60.0
           }
         ]
@@ -8337,251 +9972,19 @@
     ]
   },
   {
-    "station_id": "JIO_2363",
-    "loc_id": 2363,
-    "name": "Jiobp Sonar Bangla Farm Resorts Pvt Ltd",
+    "station_id": "JIO_2347",
+    "loc_id": 2347,
+    "name": "Jiobp Reliance Mall, Madhyamgram",
     "brand": "Jio-bp pulse",
-    "address": "NH-6, BOMBAY ROAD, DHULAGORI, Howrah, West Bengal, Sankrail, Haora, West Bengal, 711302",
-    "latitude": 22.5738125,
-    "longitude": 88.18767190000001,
-    "chargers_count": 1,
-    "total_sockets": 2,
-    "total_capacity_kw": 120.0,
-    "chargers": [
-      {
-        "charger_id": "JIO_2363_C1",
-        "charger_name": "Jio-bp pulse Fast Unit",
-        "power_kw": 60.0,
-        "type": "DC",
-        "sockets_count": 2,
-        "connectors": [
-          {
-            "id": 1,
-            "display_id": 1,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          },
-          {
-            "id": 2,
-            "display_id": 2,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "station_id": "JIO_2383",
-    "loc_id": 2383,
-    "name": "Jiobp Magnolia Oxygen, Kalaberia",
-    "brand": "Jio-bp pulse",
-    "address": "Magnolia Oxygen, Kalaberia, Shibtala, Kalaberia, West Bengal, Rajarhat Gopalpur, North Twentyfour Parganas, West Bengal, 700135",
-    "latitude": 22.62018799,
-    "longitude": 88.49644758,
-    "chargers_count": 1,
-    "total_sockets": 4,
-    "total_capacity_kw": 240.0,
-    "chargers": [
-      {
-        "charger_id": "JIO_2383_C1",
-        "charger_name": "Jio-bp pulse Fast Unit",
-        "power_kw": 60.0,
-        "type": "DC",
-        "sockets_count": 4,
-        "connectors": [
-          {
-            "id": 1,
-            "display_id": 1,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          },
-          {
-            "id": 2,
-            "display_id": 2,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          },
-          {
-            "id": 3,
-            "display_id": 3,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          },
-          {
-            "id": 4,
-            "display_id": 4,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "station_id": "JIO_2540",
-    "loc_id": 2540,
-    "name": "Jiobp Metro Cash & Carry, Kolkata",
-    "brand": "Jio-bp pulse",
-    "address": "No 332, Mauza Barakholla, JL 21, Eastern Metropolitan Bypass, Kolkata, Kolkata, West Bengal, 700099",
-    "latitude": 22.4962625,
-    "longitude": 88.3990469,
-    "chargers_count": 1,
-    "total_sockets": 2,
-    "total_capacity_kw": 120.0,
-    "chargers": [
-      {
-        "charger_id": "JIO_2540_C1",
-        "charger_name": "Jio-bp pulse Fast Unit",
-        "power_kw": 60.0,
-        "type": "DC",
-        "sockets_count": 2,
-        "connectors": [
-          {
-            "id": 1,
-            "display_id": 1,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          },
-          {
-            "id": 2,
-            "display_id": 2,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "station_id": "JIO_2619",
-    "loc_id": 2619,
-    "name": "Jiobp CENTRUS MALL",
-    "brand": "Jio-bp pulse",
-    "address": "HFJV+HCM, AA II, Newtown, New Town, Chakpachuria, West Bengal, Kolkata, Kolkata, West Bengal, 700160",
-    "latitude": 22.58150987,
-    "longitude": 88.49354029644,
-    "chargers_count": 1,
-    "total_sockets": 12,
-    "total_capacity_kw": 720.0,
-    "chargers": [
-      {
-        "charger_id": "JIO_2619_C1",
-        "charger_name": "Jio-bp pulse Fast Unit",
-        "power_kw": 60.0,
-        "type": "DC",
-        "sockets_count": 12,
-        "connectors": [
-          {
-            "id": 1,
-            "display_id": 1,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          },
-          {
-            "id": 2,
-            "display_id": 2,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          },
-          {
-            "id": 3,
-            "display_id": 3,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          },
-          {
-            "id": 4,
-            "display_id": 4,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          },
-          {
-            "id": 5,
-            "display_id": 5,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          },
-          {
-            "id": 6,
-            "display_id": 6,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          },
-          {
-            "id": 7,
-            "display_id": 7,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          },
-          {
-            "id": 8,
-            "display_id": 8,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          },
-          {
-            "id": 9,
-            "display_id": 9,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          },
-          {
-            "id": 10,
-            "display_id": 10,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          },
-          {
-            "id": 11,
-            "display_id": 11,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          },
-          {
-            "id": 12,
-            "display_id": 12,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "station_id": "JIO_2376",
-    "loc_id": 2376,
-    "name": "Jiobp Jalvayu Towers, New Town",
-    "brand": "Jio-bp pulse",
-    "address": "Jalvayu Towers, Plot No. DJ -06, Action Area-I (D, Kolkata, Kolkata, West Bengal, 700160",
-    "latitude": 22.5687049,
-    "longitude": 88.47251472,
+    "address": "Plot No 553, 550/751,752,548,549 J L No 45, Jessore Road Madhyamgram City, Madhyamgram, North Twentyfour Parganas, West Bengal, 700129",
+    "latitude": 22.68811219,
+    "longitude": 88.46458429,
     "chargers_count": 1,
     "total_sockets": 3,
     "total_capacity_kw": 180.0,
     "chargers": [
       {
-        "charger_id": "JIO_2376_C1",
+        "charger_id": "JIO_2347_C1",
         "charger_name": "Jio-bp pulse Fast Unit",
         "power_kw": 60.0,
         "type": "DC",
@@ -8598,7 +10001,7 @@
             "id": 2,
             "display_id": 2,
             "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
+            "status": "FAULTED",
             "power_kw": 60.0
           },
           {
@@ -8606,6 +10009,43 @@
             "display_id": 3,
             "type": "CCS-2 (60kW)",
             "status": "FAULTED",
+            "power_kw": 60.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "station_id": "JIO_2369",
+    "loc_id": 2369,
+    "name": "Jiobp WBSEDCL, Amdanga",
+    "brand": "Jio-bp pulse",
+    "address": "Mathura, West Bengal, Barasat, North Twentyfour Parganas, West Bengal, 721456",
+    "latitude": 22.7772125,
+    "longitude": 88.4934844,
+    "chargers_count": 1,
+    "total_sockets": 2,
+    "total_capacity_kw": 120.0,
+    "chargers": [
+      {
+        "charger_id": "JIO_2369_C1",
+        "charger_name": "Jio-bp pulse Fast Unit",
+        "power_kw": 60.0,
+        "type": "DC",
+        "sockets_count": 2,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 2,
+            "display_id": 2,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
             "power_kw": 60.0
           }
         ]
@@ -8642,7 +10082,7 @@
             "id": 2,
             "display_id": 2,
             "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
+            "status": "FAULTED",
             "power_kw": 60.0
           }
         ]
@@ -8650,108 +10090,29 @@
     ]
   },
   {
-    "station_id": "JIO_587",
-    "loc_id": 587,
-    "name": "Jiobp WBSEDCL, Old Calcutta",
+    "station_id": "JIO_2349",
+    "loc_id": 2349,
+    "name": "Jiobp Shivangan Banquets, Howrah",
     "brand": "Jio-bp pulse",
-    "address": "Old Calcutta Rd, Math Para, Titagarh, Barrackpore, West Bengal, India, Kolkata, Kolkata, West Bengal, 700119",
-    "latitude": 22.74802,
-    "longitude": 88.38156,
+    "address": "SHIVANGAN BANQUETS KUNDU MARKETT PVT LTD BALLY, DURGAPUR,, Bally, Haora, West Bengal, 711205",
+    "latitude": 22.65424405,
+    "longitude": 88.32826444,
     "chargers_count": 1,
-    "total_sockets": 4,
-    "total_capacity_kw": 240.0,
+    "total_sockets": 1,
+    "total_capacity_kw": 60.0,
     "chargers": [
       {
-        "charger_id": "JIO_587_C1",
+        "charger_id": "JIO_2349_C1",
         "charger_name": "Jio-bp pulse Fast Unit",
         "power_kw": 60.0,
         "type": "DC",
-        "sockets_count": 4,
+        "sockets_count": 1,
         "connectors": [
           {
             "id": 1,
             "display_id": 1,
             "type": "CCS-2 (60kW)",
             "status": "AVAILABLE",
-            "power_kw": 60.0
-          },
-          {
-            "id": 2,
-            "display_id": 2,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          },
-          {
-            "id": 3,
-            "display_id": 3,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          },
-          {
-            "id": 4,
-            "display_id": 4,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "station_id": "JIO_2355",
-    "loc_id": 2355,
-    "name": "Jiobp WBSEDCL, Tongtala",
-    "brand": "Jio-bp pulse",
-    "address": "Tongtola 33/11 KV Substation, Bakultala, Tongtala, Baruipur, Kolkata, Kolkata, West Bengal, 700145",
-    "latitude": 22.3634125,
-    "longitude": 88.3952656,
-    "chargers_count": 1,
-    "total_sockets": 5,
-    "total_capacity_kw": 300.0,
-    "chargers": [
-      {
-        "charger_id": "JIO_2355_C1",
-        "charger_name": "Jio-bp pulse Fast Unit",
-        "power_kw": 60.0,
-        "type": "DC",
-        "sockets_count": 5,
-        "connectors": [
-          {
-            "id": 1,
-            "display_id": 1,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          },
-          {
-            "id": 2,
-            "display_id": 2,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          },
-          {
-            "id": 3,
-            "display_id": 3,
-            "type": "CCS-2 (60kW)",
-            "status": "FAULTED",
-            "power_kw": 60.0
-          },
-          {
-            "id": 4,
-            "display_id": 4,
-            "type": "CCS-2 (60kW)",
-            "status": "FAULTED",
-            "power_kw": 60.0
-          },
-          {
-            "id": 5,
-            "display_id": 5,
-            "type": "CCS-2 (60kW)",
-            "status": "FAULTED",
             "power_kw": 60.0
           }
         ]
@@ -8772,6 +10133,80 @@
     "chargers": [
       {
         "charger_id": "JIO_2360_C1",
+        "charger_name": "Jio-bp pulse Fast Unit",
+        "power_kw": 60.0,
+        "type": "DC",
+        "sockets_count": 2,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 2,
+            "display_id": 2,
+            "type": "CCS-2 (60kW)",
+            "status": "FAULTED",
+            "power_kw": 60.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "station_id": "JIO_2370",
+    "loc_id": 2370,
+    "name": "Jiobp (Restricted) Joyville, Howrah",
+    "brand": "Jio-bp pulse",
+    "address": "Joyville Shapoorji Housing Private Limited Salap Junction Howrah Amta Road And Bombay Crossing, NH6, Howrah,, Salap, Haora, West Bengal, 711403",
+    "latitude": 22.6153125,
+    "longitude": 88.28764059999999,
+    "chargers_count": 1,
+    "total_sockets": 2,
+    "total_capacity_kw": 120.0,
+    "chargers": [
+      {
+        "charger_id": "JIO_2370_C1",
+        "charger_name": "Jio-bp pulse Fast Unit",
+        "power_kw": 60.0,
+        "type": "DC",
+        "sockets_count": 2,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "CCS-2 (60kW)",
+            "status": "FAULTED",
+            "power_kw": 60.0
+          },
+          {
+            "id": 2,
+            "display_id": 2,
+            "type": "CCS-2 (60kW)",
+            "status": "FAULTED",
+            "power_kw": 60.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "station_id": "JIO_2352",
+    "loc_id": 2352,
+    "name": "Jiobp WBSEDCL, Newtown",
+    "brand": "Jio-bp pulse",
+    "address": "Action Area III, Newtown, New Town, Kolkata, Kolkata, West Bengal, 700135",
+    "latitude": 22.5641125,
+    "longitude": 88.5140156,
+    "chargers_count": 1,
+    "total_sockets": 2,
+    "total_capacity_kw": 120.0,
+    "chargers": [
+      {
+        "charger_id": "JIO_2352_C1",
         "charger_name": "Jio-bp pulse Fast Unit",
         "power_kw": 60.0,
         "type": "DC",
@@ -8839,249 +10274,6 @@
             "id": 4,
             "display_id": 4,
             "type": "CCS-2 (60kW)",
-            "status": "FAULTED",
-            "power_kw": 60.0
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "station_id": "JIO_2369",
-    "loc_id": 2369,
-    "name": "Jiobp WBSEDCL, Amdanga",
-    "brand": "Jio-bp pulse",
-    "address": "Mathura, West Bengal, Barasat, North Twentyfour Parganas, West Bengal, 721456",
-    "latitude": 22.7772125,
-    "longitude": 88.4934844,
-    "chargers_count": 1,
-    "total_sockets": 2,
-    "total_capacity_kw": 120.0,
-    "chargers": [
-      {
-        "charger_id": "JIO_2369_C1",
-        "charger_name": "Jio-bp pulse Fast Unit",
-        "power_kw": 60.0,
-        "type": "DC",
-        "sockets_count": 2,
-        "connectors": [
-          {
-            "id": 1,
-            "display_id": 1,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          },
-          {
-            "id": 2,
-            "display_id": 2,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "station_id": "JIO_2349",
-    "loc_id": 2349,
-    "name": "Jiobp Shivangan Banquets, Howrah",
-    "brand": "Jio-bp pulse",
-    "address": "SHIVANGAN BANQUETS KUNDU MARKETT PVT LTD BALLY, DURGAPUR,, Bally, Haora, West Bengal, 711205",
-    "latitude": 22.65424405,
-    "longitude": 88.32826444,
-    "chargers_count": 1,
-    "total_sockets": 1,
-    "total_capacity_kw": 60.0,
-    "chargers": [
-      {
-        "charger_id": "JIO_2349_C1",
-        "charger_name": "Jio-bp pulse Fast Unit",
-        "power_kw": 60.0,
-        "type": "DC",
-        "sockets_count": 1,
-        "connectors": [
-          {
-            "id": 1,
-            "display_id": 1,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "station_id": "JIO_2366",
-    "loc_id": 2366,
-    "name": "Jiobp (Restricted) Elita Garden Vista",
-    "brand": "Jio-bp pulse",
-    "address": "Plot 111E, 4/1, Shapoorji Pallonji Sukhobrishti Complex Rd, Action Area III, Newtown, New Town, West Bengal, Kolkata, Kolkata, West Bengal, 700135",
-    "latitude": 22.5678125,
-    "longitude": 88.5164844,
-    "chargers_count": 1,
-    "total_sockets": 5,
-    "total_capacity_kw": 300.0,
-    "chargers": [
-      {
-        "charger_id": "JIO_2366_C1",
-        "charger_name": "Jio-bp pulse Fast Unit",
-        "power_kw": 60.0,
-        "type": "DC",
-        "sockets_count": 5,
-        "connectors": [
-          {
-            "id": 1,
-            "display_id": 1,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          },
-          {
-            "id": 2,
-            "display_id": 2,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          },
-          {
-            "id": 3,
-            "display_id": 3,
-            "type": "CCS-2 (60kW)",
-            "status": "FAULTED",
-            "power_kw": 60.0
-          },
-          {
-            "id": 4,
-            "display_id": 4,
-            "type": "CCS-2 (60kW)",
-            "status": "FAULTED",
-            "power_kw": 60.0
-          },
-          {
-            "id": 5,
-            "display_id": 5,
-            "type": "CCS-2 (60kW)",
-            "status": "FAULTED",
-            "power_kw": 60.0
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "station_id": "JIO_2347",
-    "loc_id": 2347,
-    "name": "Jiobp Reliance Mall, Madhyamgram",
-    "brand": "Jio-bp pulse",
-    "address": "Plot No 553, 550/751,752,548,549 J L No 45, Jessore Road Madhyamgram City, Madhyamgram, North Twentyfour Parganas, West Bengal, 700129",
-    "latitude": 22.68811219,
-    "longitude": 88.46458429,
-    "chargers_count": 1,
-    "total_sockets": 3,
-    "total_capacity_kw": 180.0,
-    "chargers": [
-      {
-        "charger_id": "JIO_2347_C1",
-        "charger_name": "Jio-bp pulse Fast Unit",
-        "power_kw": 60.0,
-        "type": "DC",
-        "sockets_count": 3,
-        "connectors": [
-          {
-            "id": 1,
-            "display_id": 1,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          },
-          {
-            "id": 2,
-            "display_id": 2,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          },
-          {
-            "id": 3,
-            "display_id": 3,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "station_id": "JIO_2352",
-    "loc_id": 2352,
-    "name": "Jiobp WBSEDCL, Newtown",
-    "brand": "Jio-bp pulse",
-    "address": "Action Area III, Newtown, New Town, Kolkata, Kolkata, West Bengal, 700135",
-    "latitude": 22.5641125,
-    "longitude": 88.5140156,
-    "chargers_count": 1,
-    "total_sockets": 2,
-    "total_capacity_kw": 120.0,
-    "chargers": [
-      {
-        "charger_id": "JIO_2352_C1",
-        "charger_name": "Jio-bp pulse Fast Unit",
-        "power_kw": 60.0,
-        "type": "DC",
-        "sockets_count": 2,
-        "connectors": [
-          {
-            "id": 1,
-            "display_id": 1,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          },
-          {
-            "id": 2,
-            "display_id": 2,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "station_id": "JIO_2370",
-    "loc_id": 2370,
-    "name": "Jiobp (Restricted) Joyville, Howrah",
-    "brand": "Jio-bp pulse",
-    "address": "Joyville Shapoorji Housing Private Limited Salap Junction Howrah Amta Road And Bombay Crossing, NH6, Howrah,, Salap, Haora, West Bengal, 711403",
-    "latitude": 22.6153125,
-    "longitude": 88.28764059999999,
-    "chargers_count": 1,
-    "total_sockets": 2,
-    "total_capacity_kw": 120.0,
-    "chargers": [
-      {
-        "charger_id": "JIO_2370_C1",
-        "charger_name": "Jio-bp pulse Fast Unit",
-        "power_kw": 60.0,
-        "type": "DC",
-        "sockets_count": 2,
-        "connectors": [
-          {
-            "id": 1,
-            "display_id": 1,
-            "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
-            "power_kw": 60.0
-          },
-          {
-            "id": 2,
-            "display_id": 2,
-            "type": "CCS-2 (60kW)",
             "status": "AVAILABLE",
             "power_kw": 60.0
           }
@@ -9141,6 +10333,43 @@
             "display_id": 5,
             "type": "CCS-2 (60kW)",
             "status": "AVAILABLE",
+            "power_kw": 60.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "station_id": "JIO_2377",
+    "loc_id": 2377,
+    "name": "Jiobp Mobility Station, Sodepur",
+    "brand": "Jio-bp pulse",
+    "address": "P94F+JJR, Khardaha, West Bengal, India, Barrackpur, North Twentyfour Parganas, West Bengal, 700115",
+    "latitude": 22.7066125,
+    "longitude": 88.37401559999999,
+    "chargers_count": 1,
+    "total_sockets": 2,
+    "total_capacity_kw": 120.0,
+    "chargers": [
+      {
+        "charger_id": "JIO_2377_C1",
+        "charger_name": "Jio-bp pulse Fast Unit",
+        "power_kw": 60.0,
+        "type": "DC",
+        "sockets_count": 2,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 2,
+            "display_id": 2,
+            "type": "CCS-2 (60kW)",
+            "status": "FAULTED",
             "power_kw": 60.0
           }
         ]
@@ -9212,7 +10441,7 @@
             "id": 7,
             "display_id": 7,
             "type": "CCS-2 (60kW)",
-            "status": "AVAILABLE",
+            "status": "FAULTED",
             "power_kw": 60.0
           },
           {
@@ -9220,6 +10449,43 @@
             "display_id": 8,
             "type": "CCS-2 (60kW)",
             "status": "FAULTED",
+            "power_kw": 60.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "station_id": "JIO_FLT_Reliance_Mall__Madhyamgra",
+    "loc_id": "FLT_Reliance_Mall__Madhyamgra",
+    "name": "Jio-bp pulse (Fleet) - Reliance Mall, Madhyamgram, Kolkata",
+    "brand": "Jio-bp pulse",
+    "address": "Plot No 553, 550/751,752,548,549 J L No 45, Jessore Road Madhyamgram City, Bharasat 700129",
+    "latitude": 22.68811219,
+    "longitude": 88.46458429,
+    "chargers_count": 1,
+    "total_sockets": 2,
+    "total_capacity_kw": 120.0,
+    "chargers": [
+      {
+        "charger_id": "JIO_FLT_Reliance_Mall__Madhyamgra_C1",
+        "charger_name": "Jio-bp pulse Fast Unit",
+        "power_kw": 60.0,
+        "type": "DC",
+        "sockets_count": 2,
+        "connectors": [
+          {
+            "id": 1,
+            "display_id": 1,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
+            "power_kw": 60.0
+          },
+          {
+            "id": 2,
+            "display_id": 2,
+            "type": "CCS-2 (60kW)",
+            "status": "AVAILABLE",
             "power_kw": 60.0
           }
         ]

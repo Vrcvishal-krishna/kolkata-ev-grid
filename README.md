@@ -3,13 +3,13 @@
 Live operational command center and high-precision telemetry engine for the twin-city Kolkata & Howrah metropolitan area across the Hooghly River corridor.
 
 ### Network Coverage
-- **Metropolitan Grid:** 151 deduplicated public charging hubs
-- **Hardware Capacity:** 650 physical guns | 26,372.3 kW installed grid load
+- **Metropolitan Grid:** 168 deduplicated public & fleet charging hubs
+- **Hardware Capacity:** 727 physical guns | 29,200.3 kW installed grid load
 - **CPO Integration:**
-  - ChargeZone: 269 sockets
-  - Jio-bp pulse (GOBP): 158 sockets
-  - Statiq Network: 122 sockets
-  - Tata Power EZ Charge: 69 sockets
+  - ChargeZone (Public + Fleet): 293 sockets
+  - Jio-bp pulse (Public + Fleet): 162 sockets
+  - Statiq Network: 158 sockets
+  - Tata Power EZ Charge: 82 sockets
   - goEgo Network: 20 sockets
   - BPCL: 12 sockets
 
